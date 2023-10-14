@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <header class="header">
         <div class="header__search">
             <form action="#">
-                <input type="text" placeholder="Поиск">
+                <input type="text" placeholder="Поиск" id="search" >
             </form>
         </div>
         <div class="header__logo">
@@ -44,12 +44,6 @@
                 <div>
                     <div class="promo__interactive-title">ПРОСМОТРЕННЫЕ ФИЛЬМЫ</div>
                     <ul class="promo__interactive-list">
-                    </li>
-                    <li class="promo__interactive-item">ОДЕРЖИМОСТЬ
-                        <div class="delete"></div>
-                    </li>
-                    <li class="promo__interactive-item">СКОТТ ПИЛИГРИМ ПРОТИВ...
-                        <div class="delete"></div>
                         <li class="promo__interactive-item">ЛОГАН
                             <div class="delete"></div>
                         </li>
@@ -57,6 +51,12 @@
                             <div class="delete"></div>
                         </li>
                         <li class="promo__interactive-item">ЛА-ЛА ЛЭНД
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">ОДЕРЖИМОСТЬ
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">СКОТТ ПИЛИГРИМ ПРОТИВ...
                             <div class="delete"></div>
                         </li>
                     </ul>
@@ -82,7 +82,7 @@
         </div>
     </main>
 
-    <script src="js/db.js"></script>
-    <script src="js/script.js"></script>
+    
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>
